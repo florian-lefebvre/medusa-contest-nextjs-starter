@@ -1,3 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("./fonts.css");
+
+.custom-container {
+  @apply mx-auto max-w-6xl;
+}
+
 :root {
   --logo-color-1000: #30363d;
   --logo-color-900: #454b54;

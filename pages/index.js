@@ -7,8 +7,8 @@ import { useContext } from "react";
 import StoreContext from "../context/store-context";
 
 export default function Home({ products }) {
-  const { cart } = useContext(StoreContext)
-  
+  const { cart } = useContext(StoreContext);
+
   return (
     <div className={styles.container}>
       <main className={styles.main}>
